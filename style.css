@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    font-weight:bold;
+    margin-left: 5px;
+}
+
+body{
+    background: lightblue
+}
+
+.Pokemon_header{
+    background: yellow;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.maincontainer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: space-between;
+    justify-content: center;
+    margin:0 auto;
+}
+
+.pokemon{
+    background-color:rgb(243, 212, 11);
+    border-radius: 20px;
+    padding: 20px;
+    text-align:left;
+    align-items: space-between;
+    margin-bottom: 10px;
+}
+
+.pokemon.img-container{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.pokemon.img-container.img{
+    margin-top:20px;
+    max-width: 100%;
+}
